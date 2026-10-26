@@ -1,332 +1,271 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rexam AgriHub in Nakuru, Kenya. Agricultural inputs, agrovet products and farming support.">
-  <title>Rexam AgriHub kenya</title>
+  <title>Rexam AgriHub Kenya | Farm Supplies</title>
+  <meta name="description" content="Shop farm supplies, poultry products and animal feeds at Rexam AgriHub Kenya. Contact us on WhatsApp to order.">
 
-  <
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f5f7f0;
-  color: #222;
-}
-
-header {
-  background-color: #14532d;
-  color: white;
-  text-align: center;
-  padding: 25px 15px;
-}
-
-h1, h2, h3 {
-  color: #14532d;
-}
-
-header h1 {
-  color: #ffffff;
-}
-
-button, .order-button {
-  background-color: #d4af37;
-  color: #14532d;
-  border: none;
-  padding: 12px 18px;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.product {
-  background: white;
-  border: 1px solid #d4af37;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 12px;
-}
-
-.price {
-  color: #14532d;
-  font-weight: bold;
-}
-
-footer {
-  background-color: #14532d;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-    style>
+  <style>
     * {
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
     }
 
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f1f8f0;
-      color: #263b2b;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7ef;
+      color: #253126;
       line-height: 1.6;
     }
 
     header {
-      background: #176b38;
+      background: #14532d;
       color: white;
       text-align: center;
-      padding: 30px 15px;
+      padding: 24px 15px;
     }
 
     header h1 {
-      font-size: 32px;
-      margin-bottom: 5px;
+      margin: 0;
+      color: #f5d76e;
+      font-size: 27px;
+    }
+
+    header p {
+      margin-bottom: 0;
     }
 
     nav {
-      background: white;
-      padding: 14px 5px;
+      background: #103f24;
+      padding: 12px;
       text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      box-shadow: 0 2px 6px #00000012;
     }
 
     nav a {
-      color: #176b38;
+      color: white;
       text-decoration: none;
+      margin: 0 10px;
       font-weight: bold;
-      margin: 0 7px;
       font-size: 14px;
     }
 
-    nav a:hover {
-      color: #20a653;
-    }
-
     .hero {
+      padding: 35px 18px;
       text-align: center;
-      padding: 55px 20px;
-      background: #dcefdc;
+      background: #e7f0df;
     }
 
     .hero h2 {
-      color: #176b38;
-      font-size: 30px;
-      margin-bottom: 12px;
-    }
-
-    .hero p {
-      margin-bottom: 10px;
+      color: #14532d;
+      font-size: 27px;
+      margin-top: 0;
     }
 
     .button {
       display: inline-block;
-      background: #20b85a;
-      color: white;
-      text-decoration: none;
+      background: #d4af37;
+      color: #183b22;
+      padding: 12px 20px;
+      margin: 8px 4px;
+      border-radius: 7px;
       font-weight: bold;
-      padding: 13px 20px;
-      border-radius: 8px;
-      margin-top: 15px;
-    }
-
-    .button:hover {
-      background: #168c43;
+      text-decoration: none;
     }
 
     .section {
-      max-width: 1000px;
+      padding: 28px 15px;
+      max-width: 1100px;
       margin: auto;
-      padding: 38px 18px;
-      scroll-margin-top: 65px;
     }
 
     .section h2 {
       text-align: center;
-      color: #176b38;
-      margin-bottom: 22px;
-      font-size: 27px;
+      color: #14532d;
+      margin-top: 0;
     }
 
-    .grid {
+    .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
     }
 
-    .card {
+    .product {
       background: white;
-      padding: 22px 14px;
+      border: 1px solid #e0d19a;
       border-radius: 12px;
-      text-align: center;
-      box-shadow: 0 2px 8px #0000000d;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.07);
     }
 
-    .card h3 {
-      color: #176b38;
-      margin-bottom: 8px;
+    .product img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      display: block;
+      background: #e8eee5;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product h3 {
+      color: #14532d;
+      margin: 0 0 8px;
+    }
+
+    .price {
+      color: #14532d;
+      font-weight: bold;
       font-size: 18px;
     }
 
-    .card p {
-      font-size: 15px;
+    .order-button {
+      display: block;
+      text-align: center;
+      background: #168348;
+      color: white;
+      padding: 11px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
     }
 
-    .note {
+    .ad {
+      background: #fff0b5;
+      border: 2px solid #d4af37;
+      border-radius: 12px;
+      padding: 22px 15px;
       text-align: center;
-      margin-top: 20px;
+      margin: 10px 0;
+    }
+
+    .ad h2 {
+      color: #14532d;
+      margin: 0;
     }
 
     .contact {
-      background: white;
-      padding: 28px 18px;
-      border-radius: 12px;
+      background: #e7f0df;
       text-align: center;
-      box-shadow: 0 2px 8px #0000000d;
-    }
-
-    .contact p {
-      margin: 8px 0;
+      padding: 28px 15px;
     }
 
     footer {
-      background: #124d2b;
+      background: #103f24;
       color: white;
       text-align: center;
-      padding: 24px 12px;
-      margin-top: 15px;
+      padding: 20px 12px;
     }
 
-    @media (max-width: 380px) {
+    footer p {
+      margin: 5px;
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 23px;
+      }
+
       nav a {
-        margin: 0 4px;
-        font-size: 12px;
+        display: inline-block;
+        margin: 5px;
       }
 
       .hero h2 {
-        font-size: 25px;
+        font-size: 23px;
       }
     }
-  <CSS, for the design./style>
+  </style>
 </head>
 
 <body>
 
   <header>
-    <h1>Rexam AgriHub</h1>
-    <p>Your trusted agricultural and agrovet partner</p>
-    <p>📍 Nakuru, Kenya</p>
+    <h1>Rexam AgriHub Kenya</h1>
+    <p>Your Trusted Partner in Farming</p>
   </header>
 
   <nav>
     <a href="#home">Home</a>
     <a href="#products">Products</a>
-    <a href="#services">Services</a>
+    <a href="#advert">Promotions</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section class="hero" id="home">
-    <h2>Welcome to Rexam AgriHub</h2>
-    <p>Helping farmers grow, thrive and succeed.</p>
-    <p><strong>Fix now, better tomorrow.</strong></p>
-
-    <a class="button"
-       href="https://wa.me/254736882435?text=Hello%20Rexam%20AgriHub%2C%20I%20would%20like%20to%20make%20an%20enquiry."
-       target="_blank"
-       rel="noopener noreferrer">
-      Contact Us on WhatsApp
-    </a>
+    <h2>Grow Better. Farm Smarter.</h2>
+    <p>Explore poultry supplies, animal feeds and essential farm products.</p>
+    <a class="button" href="#products">View Products</a>
+    <a class="button" href="#contact">Contact Us</a>
   </section>
 
   <section class="section" id="products">
-    <h2>Our Products</h2>
+    <h2>Our Farm Products</h2>
 
-    <div class="grid">
-      <div class="card">
-        <h3>🌱 Seeds</h3>
-        <p>Enquire about seeds for your farming needs.</p>
-      </div>
+    <div class="products">
 
-      <div class="card">
-        <h3>🌿 Fertilizers</h3>
-        <p>Ask about crop nutrition products.</p>
-      </div>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=700&q=80"
+             alt="Chickens on a poultry farm">
+        <div class="product-info">
+          <h3>Poultry Chicks</h3>
+          <p>Ask us about available breeds and chick availability.</p>
+          <p class="price">Price: Contact us</p>
+          <a class="order-button" href="https://wa.me/254700000000?text=Hello%20Rexam%20AgriHub%2C%20I%20am%20interested%20in%20poultry%20chicks.">Order on WhatsApp</a>
+        </div>
+      </article>
 
-      <div class="card">
-        <h3>🐄 Animal Feeds</h3>
-        <p>Enquire about livestock feeding products.</p>
-      </div>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80"
+             alt="Green agricultural fields">
+        <div class="product-info">
+          <h3>Animal Feeds</h3>
+          <p>Ask about feed options for your farm animals.</p>
+          <p class="price">Price: Contact us</p>
+          <a class="order-button" href="https://wa.me/254700000000?text=Hello%20Rexam%20AgriHub%2C%20I%20am%20interested%20in%20animal%20feeds.">Order on WhatsApp</a>
+        </div>
+      </article>
 
-      <div class="card">
-        <h3>🐔 Veterinary Supplies</h3>
-        <p>Ask about animal health products.</p>
-      </div>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1523742815175-8c2b8f6a2b1b?auto=format&fit=crop&w=700&q=80"
+             alt="Agricultural crops">
+        <div class="product-info">
+          <h3>Seeds and Farm Supplies</h3>
+          <p>Contact us to check available seeds and farming supplies.</p>
+          <p class="price">Price: Contact us</p>
+          <a class="order-button" href="https://wa.me/254700000000?text=Hello%20Rexam%20AgriHub%2C%20please%20tell%20me%20about%20seeds%20and%20farm%20supplies.">Order on WhatsApp</a>
+        </div>
+      </article>
 
-      <div class="card">
-        <h3>🌾 Crop Care</h3>
-        <p>Enquire about crop protection products.</p>
-      </div>
-
-      <div class="card">
-        <h3>🚜 Farm Inputs</h3>
-        <p>Ask us about your farm requirements.</p>
-      </div>
-    </div>
-
-    <p class="note">
-      Contact us to confirm product availability and prices.
-    </p>
-  </section>
-
-  <section class="section" id="services">
-    <h2>How We Can Help</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Farming Support</h3>
-        <p>Enquire about farm inputs suited to your needs.</p>
-      </div>
-
-      <div class="card">
-        <h3>Product Enquiries</h3>
-        <p>Ask about available products and prices.</p>
-      </div>
-
-      <div class="card">
-        <h3>Customer Care</h3>
-        <p>Contact our team through WhatsApp.</p>
-      </div>
     </div>
   </section>
 
-  <section class="section" id="contact">
-    <div class="contact">
-      <h2>Contact Rexam AgriHub</h2>
-      <p>We welcome your enquiries!</p>
-      <p><strong>Location:</strong> Nakuru, Kenya</p>
-      <p><strong>Phone:</strong> 0736882435</p>
-
-      <a class="button"
-         href="https://wa.me/254736882435?text=Hello%20Rexam%20AgriHub"
-         target="_blank"
-         rel="noopener noreferrer">
-        Chat with Us on WhatsApp
-      </a>
+  <section class="section" id="advert">
+    <div class="ad">
+      <h2>📢 Farm Promotion</h2>
+      <p>Looking for quality farm supplies?</p>
+      <p>Contact Rexam AgriHub Kenya to ask about current products, prices and offers.</p>
+      <a class="button" href="https://wa.me/254700000000?text=Hello%20Rexam%20AgriHub%2C%20please%20tell%20me%20about%20your%20current%20offers.">Ask About Offers</a>
     </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Rexam AgriHub Kenya</h2>
+    <p>Ready to order or ask about a product?</p>
+    <p>Message us on WhatsApp for information.</p>
+    <a class="button" href="https://wa.me/254700000000?text=Hello%20Rexam%20AgriHub%20Kenya.">Chat on WhatsApp</a>
   </section>
 
   <footer>
-    <p><strong>Rexam AgriHub</strong></p>
-    <p>Fix now, better tomorrow.</p>
-    <p>&copy; 2026 Rexam AgriHub. All rights reserved.</p>
+    <p><strong>Rexam AgriHub Kenya</strong></p>
+    <p>Your Farming Partner</p>
+    <p>&copy; 2026 Rexam AgriHub Kenya</p>
   </footer>
 
-<HTML, for products, prices, WhatsApp orders, and advertisements. /body>
+</body>
 </html>
